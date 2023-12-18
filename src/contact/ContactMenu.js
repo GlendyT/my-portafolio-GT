@@ -34,9 +34,9 @@ export default function ContactMenu () {
 
     const {name, email, message} = formData;
     const sanitizedData = {
-      name: "name:" + DOMPurify.sanitize(name),
-      email: "name:" + DOMPurify.sanitize(email),
-      message: "name:" + DOMPurify.sanitize(message),
+      name: "Name:" + DOMPurify.sanitize(name),
+      email: "Email: " + DOMPurify.sanitize(email),
+      message: "Message: " + DOMPurify.sanitize(message),
     };
 
     const serviceID = process.env.REACT_APP_EMAILJS_SERVICE_ID;
