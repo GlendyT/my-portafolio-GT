@@ -87,6 +87,7 @@ export default function ContactMenu () {
 
   return (
   <div className='contact-menu'>
+    <div className='greeting'>Hey there! Any questions send me an email</div>
     {!isSent && ( 
       <form onSubmit={handleSubmit}> 
       <div className='form-group'>
