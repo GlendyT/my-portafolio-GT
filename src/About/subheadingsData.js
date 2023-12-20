@@ -7,34 +7,49 @@ const subheadingsData = {
       content: (
         <>
          <p>
-           I´m a beginner developer, making projects with the help of UDEMY 
+           Hey! This is Glendy Tuyuc, I am a student of Systems Engineering and starting to be a Web developer, which is where I can find my self doing what I love.
+            <p>
+            Coding, searching and solving errors is enjoyable to me. I am a positive, curious and hard working person, trying always to help and share my acknowladge and at the same time improving my soft and technical skills.
+            </p>
          </p>
         </>
       ),
-    },
+    }
+    ,
   ],
   2: [
     {
-      title:"2023 Ingenieria en Sistemas",
+      title:"2023 - Present UDEMY COURSE",
       content: (
         <>
          <p>
-           
+           Starting to learn by courses online, mostly on UDEMY. Name course "React – La Guia completa: Hooks Context Redux MERN +15 Apps". 
          </p>
         </>
       ),
     },
     {
-      title:"2022",
+      title:"2023-Present University",
       content: (
         <>
          <p>
-           
+            Starting University at "Universidad Mariano Galvez de Chimaltenango"
          </p>
         </>
       ),
     },
-  ],
+    {
+      title:"2018-2019 Associate´s Degree ",
+      content: (
+        <>
+         <p>
+           Studied in my hometown from Comalapa, Chimaltenango "Centro Educativo Formacion y Ciencia".
+         </p>
+        </>
+      ),
+    },
+    
+  ],/*
   3: [
     {
       title:"2023 React Developer",
@@ -66,7 +81,7 @@ const subheadingsData = {
         </>
       ),
     },
-  ],
+  ],*/
 };
 
 export default subheadingsData;

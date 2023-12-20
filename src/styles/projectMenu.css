@@ -128,3 +128,15 @@
         margin-top: 0;
     }
 }
+
+.link {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(243, 242, 244);
+    text-transform: uppercase; 
+    width: 90%;
+    display: flex;
+  }
+  .link:hover {
+    color: rgb(205, 2, 22);
+  }

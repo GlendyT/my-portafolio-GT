@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import projects from "./projectsData"
 import "../styles/projectMenu.css"
 
+
 export default class ProjectsMenu extends Component {
     constructor(props) {
         super(props);
@@ -33,7 +34,7 @@ export default class ProjectsMenu extends Component {
   render() {
 
     const { activeProject } = this.state;
-    const projectItems = ["PROJECT ONE", "PROJECT TWO", "PROJECT THREE"];
+    const projectItems = ["PROJECT ONE", "PROJECT TWO", "PROJECT THREE", "PROJECT FOUR", "MORE"];
 
     return (
       <div className='project-menu'>
