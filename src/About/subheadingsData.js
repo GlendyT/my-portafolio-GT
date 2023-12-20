@@ -23,7 +23,7 @@ const subheadingsData = {
       content: (
         <>
          <p>
-           Starting to learn by courses online, mostly on UDEMY. Name course "React – La Guia completa: Hooks Context Redux MERN +15 Apps". 
+           Starting to learn by courses online, mostly on UDEMY. Course "React – La Guia completa: Hooks Context Redux MERN +15 Apps". 
          </p>
         </>
       ),
