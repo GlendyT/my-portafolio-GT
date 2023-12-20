@@ -37,5 +37,6 @@ const projects = {
         demo: "https://app-de-conversion-criptomonedas.netlify.app/"
     },
 };
+//proyectos agregados
 
 export default projects;
