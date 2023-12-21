@@ -7,7 +7,7 @@ const subheadingsData = {
       content: (
         <>
          <p>
-           Hey! This is Glendy Tuyuc, I am a student of Systems Engineering and starting to be a Web developer, which is where I can find my self doing what I love.
+           Hey! This is Glendy Tuyuc, I am a student of Systems Engineering and starting to be a Web developer, which is where I can find my self doing one of the things that I love.
             <p>
             Coding, searching and solving errors is enjoyable to me. I am a positive, curious and hard working person, trying always to help and share my acknowladge and at the same time improving my soft and technical skills.
             </p>
