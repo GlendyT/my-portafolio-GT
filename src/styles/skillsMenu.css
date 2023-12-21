@@ -82,10 +82,10 @@
   }
   
   .filled {
-    background: linear-gradient(180deg, #236473, #25afce, #7ce7ff);
+    background: linear-gradient(200deg, #bc0cdb, #360048, #8702a8);
   }
   .unfilled {
-    background: linear-gradient(180deg, #1c8298, #074654, #074654);
+    background: linear-gradient(100deg, #f7a6e7, #930eec, #a022d6);
   }
   
   .skill-sub-container {
@@ -93,6 +93,8 @@
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
+    background-color: #00000030;
+    padding: 1rem;
   }
   
   @media (max-width: 1100px) {

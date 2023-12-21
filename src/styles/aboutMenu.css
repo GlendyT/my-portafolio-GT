@@ -33,6 +33,9 @@
     top: 32%;
     right: 10vw;
     cursor: pointer;
+    background-color: #00000030;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 .active-subheading {
