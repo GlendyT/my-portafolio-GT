@@ -46,7 +46,7 @@ const projects = {
         description:( 
             <> 
              <p>
-                Clone de Netflix, con todas los requisitos que requiere la app, login, sing up, add to favorites, more info y su version para telefono. Fullstack utilizando Tailwind CSS, NEXT.JS, Prisma, NextAuth,Guarda la informacion se guarda en MONGODB y el deployment esta hecho en VERCEL. Proyecto creado con la ayuda de YouTuber Code with Antonio, adjunto el video.<a 
+                Clone de Netflix, incluye las funciones: login, sing up, add to favorites, more info y su version para telefono. Fullstack utilizando Tailwind CSS, NEXT.JS, Prisma, NextAuth,Guarda la informacion en MONGODB y el deployment esta hecho en VERCEL. Proyecto creado con la ayuda de YouTuber Code with Antonio, adjunto el video.<a 
               href="https://www.youtube.com/watch?v=mqUN4N2q4qY"
               className="link"
               target='_blank' 
