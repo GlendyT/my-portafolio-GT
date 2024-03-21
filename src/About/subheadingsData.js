@@ -29,7 +29,7 @@ const subheadingsData = {
       ),
     },
     {
-      title:"2023-Present University",
+      title:"2023-June University",
       content: (
         <>
          <p>

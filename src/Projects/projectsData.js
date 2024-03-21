@@ -2,6 +2,7 @@ import projectOne from "../assets/project-1.png"
 import projectTwo from "../assets/project-2.png"
 import projectThree from "../assets/project-3.png"
 import projectFour from "../assets/project-4.png"
+import projectFive from "../assets/uptaskmern.jpg"
 import projectCuatro from "../assets/projectFour.jpg"
 import "../styles/projectMenu.css"
 
@@ -58,6 +59,18 @@ const projects = {
         demo: "https://paginanetflixclone.vercel.app/auth/"
     },
     5: {
+        title: "Task Manager",
+        image: projectFive,
+        description:( 
+            <> 
+             <p>
+                Sitio web donde puedes agregar o administrar tus tareas, agregar colaboradores, donde como administrador tienes mas opciones que solo siendo un colaborador.</p>
+            </>
+        ),
+        github: "https://github.com/GlendyT/uptask_mern_",
+        demo: "https://merntask-frontend-theta.vercel.app/"
+    },
+    6: {
         title: "Wanna see more projects",
         image: projectCuatro,
         description:( 
