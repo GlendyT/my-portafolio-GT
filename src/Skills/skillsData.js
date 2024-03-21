@@ -2,11 +2,24 @@ const skills = {
   1: [
     {
       title: "HTML",
-      level: 7,
+      level: 8,
     },
     {
       title: "CSS",
-      level: 6,
+      level: 7,
+    },
+    {
+      title: "JavaScript",
+      level: 5,
+    },
+    {
+      title: "React JS",
+      level: 5,
+    },
+    
+    {
+      title: "TypeScript",
+      level: 4,
     },
     {
       title: "Bootstrap",
@@ -14,22 +27,8 @@ const skills = {
     },
     {
       title: "Tailwind CSS",
-      level: 5,
+      level: 7,
     },
-    {
-      title: "JavaScript",
-      level: 3,
-    },
-    {
-      title: "TypeScript",
-      level: 2,
-    },
-
-    {
-      title: "React JS",
-      level: 3,
-    },
-
   ],    
   2: [
     {
@@ -38,7 +37,7 @@ const skills = {
     },
     {
       title: "Git",
-      level: 3,
+      level: 5,
     },
     {
       title: "MYSQL",
