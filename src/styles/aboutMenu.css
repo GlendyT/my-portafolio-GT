@@ -109,8 +109,9 @@
 }
 
 @media (max-width: 700px) {
+
     .sub-container {
-        width: 15rem;
+        width: 20rem;
         top: 50%;
         left: 50%;
         transform: translateX(-50%);
