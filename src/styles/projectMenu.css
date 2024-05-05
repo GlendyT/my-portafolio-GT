@@ -1,33 +1,31 @@
 .project-menu {
-    width: 45rem;
+    margin-top: 2rem;
     position: fixed;
     display: flex;
-    top: 25%;
+    flex-direction: column;
+    align-items: center;
+    top: 16%;
     left: 50%;
     transform: translateX(-50%);
 }
 
 .project-items-container {
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
     position: relative;
-    width: 40%;
-    margin-top: 12rem;
     align-items: flex-end;
 }
 
 .project-item {
-    height: 3.75rem;
-    width: 90%;
+    height: 3rem;
     display: flex;
     position: relative;
-    justify-content: flex-end;
     align-items: center;
     cursor: pointer;
 }
 
 .project-item.activeProject .title {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .activeProject {
@@ -37,78 +35,135 @@
 
 .project-item.activeProject:nth-child(1) {
     background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
+    padding-left: 1rem;
 }
-
 .project-item.activeProject:nth-child(2) {
     background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
+    padding-left: 1rem;
 }
-
 .project-item.activeProject:nth-child(3) {
     background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
+    padding-left: 1rem;
 }
 .project-item.activeProject:nth-child(4) {
     background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
+    padding-left: 1rem;
 }
 .project-item.activeProject:nth-child(5) {
     background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
+    padding-left: 1rem;
+}
+.project-item.activeProject:nth-child(6) {
+    background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
+    padding-left: 1rem;
 }
 
+
 .project-sub-container {
-    width: 60%;
-    margin-top: none;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    gap: 10rem;
-    background-color: #00000030;
+    grid-template-rows: auto;
+    gap: 1rem;
     border-radius:  0.5rem 3rem 0.5rem 3rem;
     padding: 1rem;
+}
+.project-sub-container-1,
+.project-sub-container-2,
+.project-sub-container-3,
+.project-sub-container-4,
+.project-sub-container-5,
+.project-sub-container-6 {
+    background-color: #000000e3;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .project-sub-container h3 {
     position: relative;
-    margin: 0rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+ .project-sub-container :hover h3{
+    color: rgb(222, 120, 253);
 }
 
 .project-sub-container img {
-    width: 100%;
+    width: 80%;
+    height: 40%;
     object-fit: cover;
-    border-radius: 0.5rem 3rem 0.5rem 0.5rem;
+    border-radius:1rem;
     opacity: 0.9;
 }
 
 .project-sub-container p {
-    font-size: 0.875rem;
+    font-size: 0.7rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    margin-bottom: 0;
+    margin-top: 0.2rem;
 }
 
 .link-container a {
     color: white;
     text-decoration: none;
-    margin-top: 1rem;
     width: 50%;
     height: 2.75rem;
     text-align: center;
+    font-size: 0.8rem;  
 }
-
 .link-container {
     display: flex;
     justify-content: space-around;
+    gap: 1rem;
+}
+.link-container  :hover{
+    cursor: pointer;
+    color: rgb(222, 120, 253);
 }
 
 @media (max-width: 1100px) {
     .project-menu {
         width: 28rem;
-        top: 20%;
+        top: 10%;
         transform: translateX(-50%);
+    }
+    .project-sub-container {
+        display: flex;
+        justify-content: center;
+    }
+    .project-sub-container h3 {
+        position: relative;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+    .project-sub-container img {
+        object-fit: cover;
+        border-radius:1rem;
+        opacity: 0.9;
+    }
+    .project-sub-container p {
+        display: none;
     }
     .project-item{
         height: 2rem;
         width: 100%;
+        display: block;
     }
     .project-item.activeProject .title {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .title {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 }
 
@@ -119,14 +174,37 @@
         align-items: center;
     }
     .project-sub-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto; 
+        justify-content: center;  
         font-size: 0.7rem;
+        width: 20rem;      
     }
-    .project-sub-container{
-        margin-top: 1rem;
-        width: 12rem;
+    .project-sub-container h3 {
+        position: relative;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        font-size: 0.5rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+    .project-sub-container-1,
+    .project-sub-container-2,
+    .project-sub-container-3,
+    .project-sub-container-4,
+    .project-sub-container-5{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
     }
     .project-sub-container img {
-        width: 12rem;
+        width: 5rem;
+        border-radius: 0.5rem;
+    }
+    .link-container {
+        display: flex;
+        gap: 4rem;
     }
     .link-container a {
         margin-top: 0.5rem;
@@ -134,18 +212,33 @@
         height: 2rem;
     }
     .project-items-container{
-        margin-top: 0;
+        margin-top:0;
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        padding: 10px;
+        justify-content: center;
+        gap: 0.5rem;
     }
-}
+    .project-sub-container p {
+        display: none;
+    }
+    .link-container a {
+        color: white;
+        text-decoration: none;
+        width: 50%;
+        height: 2.75rem;
+        text-align: center;
+        font-size: 0.5rem;  
+    }
+    .link-container {
+        display: flex;
+        justify-content: space-around;
+        gap: 0.5rem;
+        margin-bottom: 0;
+    }
+    .link-container  :hover{
+        cursor: pointer;
+        color: rgb(222, 120, 253);
+    }
 
-.link {
-    text-decoration: none;
-    font-size: 2rem;
-    color: rgb(243, 242, 244);
-    text-transform: uppercase; 
-    width: 90%;
-    display: flex;
-  }
-  .link:hover {
-    color: rgb(205, 2, 22);
-  }
+}
